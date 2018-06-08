@@ -12,6 +12,8 @@ public class test {
 
         System.out.println("李四第六次修改");
 
+        System.out.println("李四第六次修改");
+
         System.out.println("王五第五次修改");
     }
 }
