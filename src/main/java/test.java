@@ -7,5 +7,9 @@ public class test {
         System.out.println("第四次提交");
 
         System.out.println("第五次李四修改");
+
+        System.out.println("李四第六次修改");
+
+        System.out.println("王五第五次修改");
     }
 }
