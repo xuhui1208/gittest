@@ -2,11 +2,30 @@ package com.baizhi.entity;
 
 import javax.sql.rowset.serial.SerialArray;
 import java.io.Serializable;
+import java.util.Date;
 
 public class Student implements Serializable {
     private String username;
     private String password;
     private String salary;
+    private Integer age;
+    private Date newDate;
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
+    }
+
+    public Date getNewDate() {
+        return newDate;
+    }
+
+    public void setNewDate(Date newDate) {
+        this.newDate = newDate;
+    }
 
     public Student() {
     }
