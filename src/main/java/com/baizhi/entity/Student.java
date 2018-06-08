@@ -8,13 +8,11 @@ public class Student implements Serializable {
     private String username;
     private String password;
     private String salary;
-    private Integer age;
-    private Date newDate;
-
     public Integer getAge() {
         return age;
     }
-
+    private Integer age;
+    private Date newDate;
     public void setAge(Integer age) {
         this.age = age;
     }
